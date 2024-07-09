@@ -3,24 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="index.css">
+    <title>login page</title>
 </head>
 <body>
-   <div class="backgroung">
-    <form action="" class="form">
-        <label for="name">Name:</label>
-        <input type="text" name="name" class="name" required>
-        <label for="email">Email:</label>
-        <input type="email" name="email" class="email" required>
-        <label for="destination">Destination:</label>
-        <input type="destination" name="destination" class="destination" required>
-        <label for="dateofdeparture">Departure:</label>
-        <input type="date" name="dateofdeparture" class="dateofdeparture" required>
-    </form>
-    <button type="submit">
-        submit
-    </button>
-   </div>
+    <div class="back-ground-image">
+        
+        <div class="back-ground-login">
+            <form>
+             
+            <label for="name">NAME:
+            <input type="text" class="name" required></label>
+            <br><label for="email">E-MAIL:
+            <input type="email" class="email" required></label>
+            <br><label for="check-in">CHECK-IN:  
+            <input type="date" class="check-in" required></label>
+            <br><label for="check-in">CHECK-IN: 
+            <input type="time" class="time" required></label>
+            <br><label for="check-out">CHECK-OUT:
+            <input type="date" class="check-out" required></label>
+            <br><label for="check-out">CHECK-OUT:
+            <input type="time" class="time-out" required></label>
+            <div class="submit">
+                <button><a href="booked" class="sumit-button">
+                    
+                        submit
+                    
+                </a></button>
+            </div>
+            
+            </form>
+
+        </div>
+    </div>
 </body>
 </html>
